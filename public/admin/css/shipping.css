@@ -1,0 +1,686 @@
+.ShippingPage .tableData .titles {
+    display: flex;
+    gap: 20px;
+}
+
+.ShippingPage .tableData .titles .shearching {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    background-color: #d9d9d9;
+    border-radius: 7px;
+}
+
+.ShippingPage .tableData .titles .shearching select {
+    height: 100%;
+    border: navajowhite;
+    padding: 3px;
+    background-color: #04103b;
+    color: white;
+    border-radius: 7px;
+}
+
+.ShippingPage .tableData .titles .shearching .searchBar {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ShippingPage .tableData .titles .shearching input {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.ShippingPage .tableData .titles .shearching img {
+    right: 10px;
+    position: absolute;
+}
+
+.ShippingPage .headerSearching .table-header {
+    font-size: x-small;
+    border-radius: 7px;
+    box-shadow: 4px 3px 10px 1px #1056bf47;
+}
+
+.ShippingPage .headerSearching .table-header .item {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    position: relative;
+}
+
+.headerLineSearching::after {
+    content: "";
+    width: 30%;
+    position: absolute;
+    height: 2px;
+    background-color: #04103b;
+    bottom: 2px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.ShippingPage .headerSearching {
+    white-space: nowrap;
+}
+
+button.btnActionBlack {
+    background-color: rgb(4 16 59);
+    color: white;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.ShippingPage button.btnProgress {
+    background-color: #a6e7d8;
+    border: 1px solid #6c9b90;
+    padding: 3px 5px;
+    border-radius: 5px;
+    transition: 1s;
+    white-space: nowrap;
+    font-size: x-small;
+}
+
+button.btnActionBlack:hover,
+.ShippingPage button.btnProgress:hover {
+    transform: scale(0.9);
+}
+
+.ShippingPage .progressTableData {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+
+.reasonCanselModal img {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+.ShippingPage .barPower .power {
+    height: 15px;
+    width: 10px;
+    background: #80808059;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ShippingPage .barPower .power span {
+    width: 100%;
+    height: 3px;
+    border-radius: 7px;
+}
+
+.shippingPage .table .table-content {
+    font-size: small;
+}
+
+.shippingPage .table-data,
+.shippingPage .header__item {
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 110px;
+    gap: 3px;
+}
+
+.PrintingPage .table-data,
+.PrintingPage .header__item {
+    width: 16%;
+}
+
+.ShippingPage .barPower {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+}
+
+.table-data:first-child,
+.header__item:first-child {
+    width: 14px ;
+    flex: unset;
+    margin-right: 20px;
+}
+
+.shippingModals .modal-header {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.shippingModals .modal-header .title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+
+.shippingModals .modal-body {
+    margin: 15px 0px;
+}
+
+.shippingModals .modal-header .disheader,
+.shippingModals .modal-body .disheader {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    font-size: small;
+    align-items: center;
+}
+
+.shippingModals .modal-header .disheader .dot,
+.shippingModals .modal-body .disheader .dot {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.shippingModals .modal-header .cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.shippingModals .modal-header .cards .headerCard {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.shippingModals .modal-header .cards .headerCard .numAndTxt .num {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.shippingModals .modal-header .cards .headerCard .numAndTxt .txt {
+    font-size: small;
+    opacity: 0.7;
+}
+
+.shippingModals .modal-header .title::after {
+    content: "";
+    width: 50%;
+    position: absolute;
+    height: 3px;
+    background-color: #80808070;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+.shippingModals .modal-body .cardSelection {
+    display: flex;
+    white-space: nowrap;
+    font-size: 12px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.shippingModals .modal-footer {
+    flex-direction: column;
+}
+
+.shippingModals .modal-footer button.btn.close {
+    background-color: #80808061;
+    font-size: small;
+    width: 35%;
+    border-radius: 10px;
+    transition: 1s;
+    height: 2.5em;
+}
+
+.shippingModals .modal-footer button.btn.save {
+    background-color: #00ac4f;
+    font-size: small;
+    width: 35%;
+    border-radius: 10px;
+    transition: 1s;
+    color: white;
+}
+
+.shippingModals .modal-footer button.btn.save:hover,
+.shippingModals .modal-footer button.btn.close:hover {
+    transform: scale(0.9);
+}
+
+/* bolesaaaaaaa */
+.ShippingPage .BolesaaBtn {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 3px;
+}
+
+.ShippingPage .table-row {
+    padding: 5px 0 !important;
+    gap: 2.5px;
+}
+
+.shippingModalsBolesaa .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shippingModalsBolesaa .rewsetNum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+@media print {
+    .logos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .modal-footer .btnprint {
+        display: none;
+    }
+}
+
+.borderRest {
+    border-top: 2px solid;
+    border-bottom: 0px solid;
+    padding: 10px 0px;
+    font-size: small;
+    direction: rtl;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.shippingModalsBolesaa .titles {
+    font-size: larger;
+}
+
+.shippingModalsBolesaa .modal-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    gap: 1px;
+}
+
+.shippingModalsBolesaa .modal-footer button.btn.print {
+    background: black;
+    color: white;
+    width: 35%;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.shippingModalsBolesaa .modal-footer button.btn.close {
+    background: rgba(128, 128, 128, 0.397);
+    color: #00ac4f;
+    width: 35%;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.shippingModalsBolesaa .modal-footer button.btn.close:hover,
+.shippingModalsBolesaa .modal-footer button.btn.print:hover {
+    transform: scale(0.9);
+}
+
+/* end bolesaaaaaaa */
+.tableDataForm .modal-header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tableDataForm .modal-header .firstTitle {
+    font-size: medium;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.tableDataForm .modal-header .firstTitle::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.418);
+    position: absolute;
+    bottom: 0px;
+}
+
+.tableDataForm .modal-header .h-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.tableDataForm .modal-header .h-cards .h-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.tableDataForm .modal-header .h-cards .content {
+    font-size: small;
+}
+
+.tableDataForm .modal-body .b-card .BTitle {
+    font-size: large;
+    font-weight: 100;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tableDataForm .modal-body .b-card .BTitle::after {
+    content: "";
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.521);
+    border-radius: 20px;
+}
+
+.tableDataForm .modal-body .h-cards {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 10px 0px;
+}
+
+.tableDataForm .modal-body .h-cards .b-card {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.tableDataForm .modal-body .address {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px 13px;
+    border-radius: 7px;
+    gap: 5px;
+    margin: 30px 0px;
+}
+
+.tableDataForm .modal-body .threeCards.row .content {
+    margin: 5px;
+    box-shadow: 2px 2px 5px 2px #8080806b;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    font-size: small;
+    gap: 3px;
+    min-height: 110px;
+    align-items: center;
+}
+
+.tableDataForm .modal-body .threeCards.row .content .logo {
+    display: flex;
+    align-items: center;
+}
+
+.tableDataForm .modal-body .threeCards.row .content .logo img {
+    width: 40px;
+}
+
+.tableDataForm .modal-body .address .firstWord {
+    color: #00ac4f;
+}
+
+.tableDataForm .modal-body .threeCards.row .content .numAndTxt .num {
+    font-size: large;
+    text-align: center;
+}
+
+.tableDataForm .modal-body .threeCards.row .content .numAndTxt .txt {
+    font-size: small;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.tableDataForm .modal-body .b-card .col-md-4 {
+    padding: 0;
+}
+
+.tableDataForm .modal-body .b-card .col-md-4.blackCard .content {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.tableDataForm .modal-body .b-card .col-md-4.blackCard .content .title {
+    font-size: large;
+    font-weight: 200;
+    opacity: 0.7;
+}
+
+.tableDataForm .modal-body .b-card .col-md-4.blackCard .content .txt {
+    opacity: 0.7;
+}
+
+.tableDataForm .modal-body .b-card .col-md-4.blackCard .content .num {
+    font-size: 25px;
+    color: #00ac4f;
+}
+
+.tableDataForm .modal-body .b-card .threeCards.row {
+    padding: 10px 15px;
+}
+
+.tableDataForm .modal-body .DetailsTitle {
+    position: relative;
+}
+
+.tableDataForm .modal-body .DetailsTitle::after {
+    content: "";
+    position: absolute;
+    width: 11%;
+    height: 2px;
+    background-color: #80808082;
+    bottom: 0;
+    left: 0;
+}
+
+.tableDataForm .modal-body .form-group.col-md-6 {
+    font-size: small;
+    font-weight: 200;
+}
+
+.tableDataForm .modal-body .form-group.col-md-6 label {
+    margin-bottom: 0;
+}
+
+.tableDataForm .modal-body .form-group.col-md-6 .form-control {
+    display: flex;
+    box-shadow: 2px 2px 5px 2px gainsboro;
+}
+
+.tableDataForm .modal-body .form-group.col-md-6 .form-control input {
+    border: navajowhite;
+    font-size: small;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background: none;
+    outline: none;
+}
+
+.tableDataForm .modal-body .form-group.col-md-6 .form-control img {
+    position: absolute;
+    right: 5px;
+    z-index: 0;
+}
+
+.tableDataForm .modal-footer.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tableDataForm .modal-footer.btns button.btn.lite {
+    background-color: gainsboro;
+    font-weight: bold;
+    width: 35%;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.tableDataForm .modal-footer.btns button.btn.btn-primary {
+    font-weight: bold;
+    width: 35%;
+    border-radius: 20px;
+    transition: 1s;
+    background-color: #00ac4f;
+    border: none;
+}
+
+.tableDataForm .modal-footer.btns button.btn.btn-primary:hover,
+.tableDataForm .modal-footer.btns button.btn.lite:hover {
+    transform: scale(0.9);
+}
+
+.disabledcolor {
+    background-color: rgb(30 30 30 / 22%) !important;
+}
+
+.unclickable {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.shippingModals button.unSucc.btn.primary.btn-sm.mx-2.rounded {
+    font-size: 12px;
+    white-space: nowrap;
+    background-color: #3551b5;
+    color: white;
+    transition: 1s;
+}
+
+.shippingModals button.succ.btn.danger.btn-sm.mx-2.rounded {
+    font-size: 12px;
+    white-space: nowrap;
+    background-color: #ae2121;
+    color: white;
+    transition: 1s;
+}
+
+.shippingModals button.succ.btn.success.btn-sm.mx-2.rounded {
+    font-size: 12px;
+    white-space: nowrap;
+    background-color: #292d32;
+    color: white;
+    transition: 1s;
+}
+
+.shippingModals button {
+    transform: scale(0.9);
+}
+
+.modal-dialog.ShippingForms {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.shippingModals .reasonTitle {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shippingModals .reasonTitle::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    bottom: 0;
+    height: 3px;
+    background-color: gainsboro;
+}
+
+.shippingModals form {
+    width: 100%;
+}
+
+.shippingModals form .btnn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shippingModals form .btnn button {
+    width: 49%;
+    border-radius: 21px;
+    font-weight: bold;
+}
+
+/* fillters */
+.ShippingPage .fillterInputs input {
+    border: none;
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.ShippingPage .fillterInputs select {
+    width: 100%;
+    background-color: #04103b;
+    color: white;
+    padding: 0px 2px;
+    border-radius: 10px;
+}
+
+.ShippingPage .fillterInputs {
+    width: 100px;
+}
+
+.ShippingPage .towInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.ShippingPage form.d-flex.align-items-center.w-100.h-100 {
+    gap: 10px;
+}
+
+/* end fillters */

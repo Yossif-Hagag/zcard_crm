@@ -1,0 +1,28 @@
+.enterCodeForm .codeEdit {
+    font-size: large;
+    padding: 20px 3px;
+    width: 70%;
+}
+
+.PrintingPlanForm img,
+.printingCancelReason img,
+.enterCodeForm .modal-body img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 150px;
+}
+
+.enterCodeForm .modal-body .form-control {
+    box-shadow: 2px 3px 8px 3px #80808038;
+}
+
+.PrintingPlanForm textarea {
+    border: none;
+    box-shadow: 1px 2px 5px 2px #8080808a;
+    border-radius: 10px;
+    padding: 5px;
+}
+.PrintingPage .table .tdContent{
+    gap: 10px;
+}

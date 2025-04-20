@@ -1,0 +1,525 @@
+.AccountingPage .row .col-md-3 {
+    padding: 5px;
+}
+
+.AccountingPage .bigTotals,
+.AccountingPage .smallTotals {
+    padding: 0px 35px;
+}
+
+.AccountingPage .row .totla {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+}
+
+.AccountingPage .bigTotals .totla {
+
+    min-height: 70px;
+
+}
+
+.AccountingPage .bigTotals .num {
+    font-size: larger;
+    color: rgb(18 244 122);
+}
+
+.AccountingPage .row .color1 .totla {
+    background-color: #4881fd;
+}
+
+.AccountingPage .row .color2 .totla {
+    background-color: #1c346b;
+}
+
+.AccountingPage .row .color3 .totla {
+    background-color: #44c8d3;
+}
+
+.AccountingPage .row .color4 .totla {
+    background-color: #44d3a2;
+}
+
+.AccountingPage .row .totla .shap {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 85px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.AccountingPage .row .totla .image {
+    position: relative;
+    z-index: 1;
+}
+
+.AccountingPage .bigTotals .totla .image img {
+    width: 55px;
+    margin: 10px;
+}
+
+.AccountingPage .smallTotals .totla .image {
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    border-radius: 10px;
+    width: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AccountingPage .row .color1 .totla .shap {
+    background-color: #5383ed;
+}
+
+.AccountingPage .row .color2 .totla .shap {
+    background-color: #2d4270;
+}
+
+.AccountingPage .row .color3 .totla .shap {
+    background-color: #4fc0c9;
+}
+
+.AccountingPage .row .color4 .totla .shap {
+    background-color: #4fc99f;
+}
+
+.AccountingPage .row.smallTotals {
+    width: 60%;
+    background-color: white;
+    padding: 0;
+    margin: 15px 35px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+}
+
+.AccountingPage .row.smallTotals .totla {
+    color: black;
+    padding: 15px;
+    width: 100%;
+}
+
+.AccountingPage .row.smallTotals .col-md-4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.AccountingPage .row.smallTotals .col-md-4 .line {
+    position: absolute;
+    width: 1px;
+    height: 70%;
+    right: 0;
+    background-color: gainsboro;
+}
+
+.AccountingPage .row.smallTotals .totla .num {
+    font-size: medium;
+}
+
+.AccountingPage .row.smallTotals .totla .dis {
+    font-size: small;
+    opacity: 0.7;
+}
+
+.AccountingPage .chart1 {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 35px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    height: 350px;
+    position: relative;
+}
+
+.AccountingPage .chart1 #myChart {
+    height: auto;
+}
+
+.AccountingPage .chart1 .titles {
+    position: absolute;
+    top: 7px;
+    font-size: small;
+    left: 20px;
+}
+
+.AccountingPage .chart1 .titles .title1 {
+    opacity: 0.5;
+}
+
+.AccountingPage .balance {
+    padding: 12px 25px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    margin-bottom: 10px;
+}
+
+.AccountingPage .balance .table {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.AccountingPage .balance .title {
+    font-size: larger;
+}
+
+.AccountingPage .balance .table .TableBody {
+    font-size: small;
+}
+
+.AccountingPage .balance .table .tableRow.row {
+    border-bottom: 1px solid gainsboro;
+}
+
+.AccountingPage .balance .table .tableRow.row .greenItem {
+    color: #44d3a2;
+}
+
+.AccountingPage .balance .table .tableRow.row .item {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AccountingPage .income {
+    padding: 10px;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+}
+
+.AccountingPage .income .mainTitle {
+    display: flex;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.AccountingPage .income .mainTitle::after {
+    content: "";
+    position: absolute;
+    width: 26%;
+    bottom: 0;
+    background-color: gray;
+    height: 2px;
+    border-radius: 20px;
+}
+
+.AccountingPage .income .row .cardItem.col-md-6 {
+    display: flex;
+    gap: 5px;
+    margin: 5px 0px;
+}
+
+.AccountingPage .income .row .cardItem.col-md-6 .titleAndPrice {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.AccountingPage .income .row .cardItem.col-md-6 .titleAndPrice .title {
+    opacity: 0.5;
+}
+
+.AccountingPage .Expenses {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    padding-bottom: 20px;
+}
+
+.AccountingPage .Expenses .mainTitle {
+    text-align: center;
+    background-color: #04103b;
+    color: white;
+    border-radius: 10px;
+    font-weight: 100;
+}
+
+.AccountingPage .Expenses .totalMonth {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 1px 1px gainsboro;
+}
+
+.AccountingPage .Expenses .totalMonth div {
+    font-weight: 400;
+    padding: 0px 5px;
+}
+
+.AccountingPage .Expenses .totalMonth .num {
+    color: #44d3a2;
+    font-weight: 600;
+}
+
+.AccountingPage .Expenses .total {
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.AccountingPage .Expenses .total .dis {
+    margin-bottom: 10px;
+}
+
+.AccountingPage .Expenses .total .header {
+    margin-bottom: 5px;
+    opacity: 0.5;
+    font-size: small;
+}
+
+.AccountingPage .Expenses .total .header,
+.AccountingPage .Expenses .total .totalBody .bodyRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.AccountingPage .Expenses .total .totalBody .bodyRow div {
+    font-weight: 100;
+}
+
+#accountingTable {
+    text-align: center;
+}
+
+#accountingTable th span {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#accountingTable th {
+    padding: 0;
+}
+
+#accountingTable th .dt-column-order {
+    display: none;
+}
+
+.accountingTablePage .dt-search {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding: 0px 10px 0px 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+}
+
+.accountingTablePage .dt-search input {
+    border: none !important;
+    border-radius: 10px !important;
+    outline: none !important;
+    width: 100%;
+}
+
+.accountingTablePage .dt-search label {
+    margin: 0;
+    width: 25%;
+    background-color: #04103b;
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.accountingTablePage .dt-layout-cell.dt-layout-start .pdfBtn {
+    height: 30px;
+    display: flex;
+}
+
+.accountingTablePage .dt-layout-cell.dt-layout-start .pdfBtn button {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 0px 7px;
+    height: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    outline: unset;
+}
+
+.accountingTablePage .dt-layout-cell.dt-layout-start .pdfBtn button span {
+    background: linear-gradient(to right, #5c53b2, #c258aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-right: 3px;
+}
+
+.accountingTablePage .btnActions {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.accountingTablePage .btnActions button,
+.accountingTablePage .btnActions a {
+    border-radius: 6px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: small;
+    height: 25px;
+    width: 20px;
+    flex-direction: row;
+    border: none;
+}
+
+.accountingTablePage .btnActions .edit {
+    background-color: #292d32;
+
+
+}
+
+.accountingTablePage .btnActions a.trush {
+    background-color: #c71818;
+
+}
+
+.accountingTablePage .dataTable thead {
+    height: 50px;
+
+}
+
+.accountingTablePage .dataTable thead tr {
+    background-color: rgb(245 248 255);
+
+}
+
+.accountingTablePage .dataTable {
+    background-color: white;
+    border-radius: 8px 8px 0px 2px;
+    box-shadow: 1px 0px 0px 0px gainsboro;
+}
+
+.accountingTablePage div.dt-container div.dt-layout-row {
+    margin: 0;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+}
+
+.accountingTablePage div.dt-container div.dt-layout-row:first-child {
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+.accountingTablePage div.dt-container div.dt-layout-row:last-child {
+    padding-top: 50px;
+}
+
+.accountingTablePage .dt-layout-row {
+    background-color: white;
+    margin: 0;
+}
+
+.AddRevenueModal input,
+.AddRevenueModal select {
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.AddRevenueModal input {
+    background: none;
+}
+
+.AddRevenueModal .dateSection {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.AddRevenueModal .dateSection img {
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+    width: 20px;
+    object-fit: contain;
+}
+
+.AddRevenueModal input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    cursor: pointer;
+    color: none;
+}
+
+.AddRevenueModal .modal-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AddRevenueModal .btn-close {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.AddRevenueModal h5 {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AddRevenueModal h5::after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    background-color: gainsboro;
+    height: 3px;
+    bottom: 0;
+}
+
+.AddRevenueModal .modal-footer button {
+    width: 40%;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.AddRevenueModal .modal-footer button:hover {
+    transform: scale(0.9);
+}
+
+.AddRevenueModal .modal-footer .create {
+    background-color: #292d32;
+    color: white;
+}
+
+.AddRevenueModal .modal-footer .closebtn {
+    background-color: #ebeaea;
+}
+
+div#accountingTable_info {
+    font-size: small;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+
+#accountingTable tbody {
+    font-size: small;
+}
